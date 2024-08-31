@@ -36,6 +36,10 @@ sudo apt install mongodb-org -y
 ```bash
 sudo systemctl start mongod
 ```
+> Restart MongoDB service
+```bash
+sudo systemctl restart mongod.service
+```
 > Enable MongoDB on Startup
 ```bash
 sudo systemctl enable mongod
@@ -45,3 +49,27 @@ sudo systemctl enable mongod
 sudo systemctl status mongod
 ```
 </details>
+
+<details>
+
+<summary>2-Check MongoDB available on machine or not?</summary>
+
+## MongoDB Server
+```bash
+mongod --version
+```
+## MongoDB Shell
+```bash
+mongosh --version
+```
+## MongoDB Compass
+```bash
+# Check path application
+which mongodb-compass
+# Check version
+mongodb-compass --version
+```
+</details>
+
+# To access MongoDB
+mongosh
