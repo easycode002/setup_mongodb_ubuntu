@@ -1,3 +1,7 @@
+<details>
+
+<summary>1-How to setup MongoDB on Ubuntu</summary>
+
 # How to setup MongoDB Server on Ubuntu22.04 LTS
 Step 1: Install Necessary Packages
 ```bash
@@ -40,3 +44,4 @@ sudo systemctl enable mongod
 ```bash
 sudo systemctl status mongod
 ```
+</details>
